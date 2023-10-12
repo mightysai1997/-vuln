@@ -1,5 +1,5 @@
 # golang:1.18 will use go1.18.7 version.
-FROM golang:1.18-alpine
+FROM golang:1.20.9-alpine
 
 # This Dockerfile sets up an image for repeated integration testing.
 # This assumes the build context, i.e., CWD is vuln/
